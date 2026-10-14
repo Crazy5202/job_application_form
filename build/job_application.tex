@@ -5,7 +5,7 @@
 \usepackage[hidelinks]{hyperref}
 \usepackage{xcolor}
 \usepackage{geometry}
-\geometry{top=1.0cm, bottom=0.5cm, left=1.5cm, right=1.5cm}
+\geometry{top=0.5cm, bottom=0.5cm, left=1cm, right=1cm}
 \usepackage{graphicx}
 \usepackage{float}
 \usepackage{wrapfig}
@@ -27,6 +27,7 @@
 \end{center}
 
 \begin{center}
+	\vspace{-0.5\intextsep}
 	\small
     \faPhone* \space +7 (985) 647-53-50 | \faEnvelope \space \url{maximkuts23@gmail.com} | \faGithub \space \url{github.com/Crazy5202} | \faTelegram \space \href{t.me/Crazy523}{@Crazy523}
 \end{center}
@@ -34,10 +35,11 @@
 % Подзаголовок Образование
 
 \begin{flushleft}
+	\vspace{-1.1\intextsep}
 	\large Образование
-	\vspace{-0.8\intextsep}
 \end{flushleft}
 
+\vspace{-0.8\intextsep}
 \hrule
 
 % Бакалавриат
@@ -89,8 +91,8 @@
 \begin{flushleft}
 	\vspace{-1\intextsep}
 	\quad
-	\textit{\footnotesize Магистр, фундаментальная информатика и информационные технологии} 
-	%искусственный интеллект и суперкомпьютерное моделирование}
+	\textit{\footnotesize Магистр, %фундаментальная информатика и информационные технологии} 
+	искусственный интеллект и суперкомпьютерное моделирование}
 	\hfill
 	\textit{\small Авг. 2026 - н.в.}
 \end{flushleft}
@@ -104,7 +106,7 @@
 % Подзаголовок Практический опыт
 
 \begin{flushleft}
-	\vspace{-0.8\intextsep}
+	\vspace{-1.1\intextsep}
 	\large Практический опыт
 \end{flushleft}
 
@@ -114,7 +116,7 @@
 % ЭДО
 
 \begin{flushleft}
-	\vspace{-0.8\intextsep}
+	\vspace{-\intextsep}
 	\quad
 	\textbf{\smallСервис распознавания подписей и печатей в документах}
 	\hfill
@@ -134,6 +136,8 @@
 \begin{itemize}
 	\vspace{-2\intextsep}
     \item Сбор и формализация бизнес-требований от заказчика
+    \vspace{-0.8\intextsep}
+    \item Проектирование монолитной архитектуры решения (C4)
 	\vspace{-0.8\intextsep}
     \item Руководство командой разработки (9 человек), ведение 
     
@@ -144,7 +148,7 @@
 % Кинотеатр
 
 \begin{flushleft}
-	\vspace{-0.8\intextsep}
+	\vspace{-\intextsep}
 	\quad
 	\textbf{Онлайн-кинотеатр (учебный проект)}
 	\hfill
@@ -167,7 +171,7 @@
 	\vspace{-2\intextsep}
 	\item Проектирование сервисной архитектуры решения (C4)
 	\vspace{-0.8\intextsep}
-	\item Разработка спецификаций FastAPI для Backend и ML сервисов
+	\item Разработка спецификаций REST API для Backend и ML сервисов
 	\vspace{-0.8\intextsep}
     \item Тестирование контрактных взаимодействий (Postman)
 	\vspace{-0.8\intextsep}
@@ -180,7 +184,7 @@
 % eComm
 
 \begin{flushleft}
-	\vspace{-0.8\intextsep}
+	\vspace{-\intextsep}
 	\quad
 	\textbf{Бэкенд интернет-магазина (учебный проект)}
 	\hfill
@@ -203,20 +207,20 @@
 	\vspace{-0.8\intextsep}
 	\item Проектирование схемы БД и миграций (SQLAlchemy, Alembic)
 	\vspace{-0.8\intextsep}
-	\item Разработка спецификаций FastAPI для микросервисов
+	\item Разработка спецификаций REST API для микросервисов
 	\vspace{-0.8\intextsep}
 	\item Тестирование контрактных взаимодействий (Postman)
 	\vspace{-0.8\intextsep}
     \item Руководство командой разработки (4 человека), ведение 
 
     \vspace{-0.5\intextsep}
-    бэклога и проектной документации  (ТЗ, диаграммы UML)
+    бэклога и проектной документации  (ТЗ, диаграммы UML) 
 \end{itemize}
 
 % K2
 
 \begin{flushleft}
-	\vspace{-0.8\intextsep}
+	\vspace{-\intextsep}
 	\quad
 	\textbf{Технический трек AI Boostcamp}
 	\hfill
@@ -235,13 +239,15 @@
 
 \begin{itemize}
 	\vspace{-2\intextsep}
-	\item Построение архитектуры RAG-системы (C4)
+	\item Построение архитектуры (C4) и жизненного цикла (DFD) RAG-системы
+	\vspace{-0.8\intextsep}
+    \item Проектирование пайплайнов обработки данных и интеграция LLM (n8n)
 \end{itemize}
 
 % Подзаголовок Технологический стек
 
 \begin{flushleft}
-	\vspace{-0.8\intextsep}
+	\vspace{-1.1\intextsep}
 	\large Технологический стек
 \end{flushleft}
 
@@ -252,17 +258,19 @@
 
 \vspace{0.5\intextsep}
 
-\textbf{Моделирование архитектуры и процессов:} C4, UML, BPMN
+\textbf{Моделирование архитектуры и процессов:} C4, UML, BPMN, DFD, ERD
 
-\textbf{Наблюдаемость:} Grafana, Loki, Prometheus
+\textbf{Наблюдаемость:} Grafana, Prometheus, Loki, Promtail, Logstash, Kibana
 
 \textbf{Очереди сообщений:} Kafka, RabbitMQ
 
-\textbf{Базы данных:} PostgreSQL, MongoDB, Redis, ElasticSearch, ClickHouse
+\textbf{Базы данных:} PostgreSQL, MongoDB, Redis, Elasticsearch, ClickHouse
 
 \textbf{Языки программирования:}  SQL, Python
 
-\textbf{Средства разработки:} Linux, Git, Docker
+\textbf{Инфраструктура и интеграции:} Linux, Git, Docker, n8n
+
+\textbf{Управление разработкой и документация:} Jira, Confluence, Trello
 
 \textbf{Методологии:} Agile, Scrum
 
