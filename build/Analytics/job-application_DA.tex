@@ -1,0 +1,214 @@
+\documentclass[14pt, a4paper, oneside]{extarticle}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{geometry}
+\geometry{top=1cm, bottom=0.5cm, left=1cm, right=1cm}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{wrapfig}
+\usepackage{fontawesome5}
+\usepackage{ragged2e}
+\usepackage{microtype}
+
+\hypersetup{
+    colorlinks=true,
+    allcolors=blue,
+    pdfborderstyle={/S/U/W 0},
+    allbordercolors=blue
+}
+
+\begin{document}
+
+% Фото
+
+%\begin{wrapfigure}{l}{0.18\textwidth}
+%	\vspace{\intextsep}
+%    \includegraphics[width=0.18\textwidth]{personal_photo.jpg}
+%\end{wrapfigure}
+
+% Заголовок
+
+\begin{center}
+    \textbf{\LARGE Куценко Максим Дмитриевич}
+    
+    \textit{\Large Аналитик данных}
+\end{center}
+
+\begin{center}
+	\vspace{-0.5\intextsep}
+	\small
+    \faPhone* \space +7 (985) 647-53-50 | \faEnvelope \space maximkuts23@gmail.com | \faGithub \space github.com/Crazy5202 | \faTelegram \space @Crazy523
+\end{center}
+
+% Подзаголовок Практический опыт
+
+\begin{flushleft}
+	\vspace{-\intextsep}
+	\large Практический опыт
+\end{flushleft}
+
+\vspace{-0.8\intextsep}
+\hrule
+
+%% eComm
+
+\begin{flushleft}
+	\vspace{-0.8\intextsep}
+	\quad
+	\href{https://github.com/Crazy5202/eComm}{\textbf{Бэкенд интернет-магазина (учебный проект)}}
+	\hfill
+	Москва
+\end{flushleft}
+
+\begin{flushleft}
+	\vspace{-1\intextsep}
+	\quad
+	\textit{Московский авиационный институт}
+	\hfill
+	\textit{\small Фев. 2025 - Июнь 2025}
+\end{flushleft}
+
+%%% Список eComm
+
+\begin{itemize}
+	\vspace{-2\intextsep}
+	\item \href{https://github.com/Crazy5202/job_application_form/tree/main/portfolio/eComm_C4.pdf}{Микросервисная архитектура (C4)}: 4 контейнера PostgreSQL с паттерном Database per service, контейнер Elasticsearch, 4 контейнера инструментов наблюдаемости (Promtail, Prometheus, Loki, Grafana) 
+	\vspace{-0.8\intextsep}
+	\item Проектирование схемы БД и миграций (SQLAlchemy, Alembic)
+	\vspace{-0.8\intextsep}
+	\item Построение полнотекстового поиска продуктов в Elasticsearch с ETL
+	
+	\vspace{-0.5\intextsep} 
+	изменений из основной БД PostgreSQL через CDC Debezium и Kafka
+	\vspace{-0.8\intextsep}
+	\item Визуальный анализ информации о метриках и логах через \href{https://github.com/Crazy5202/job_application_form/tree/main/portfolio/eComm_Grafana.pdf}{дашборд в Grafana} (Request Latency, Request Rate, Error Rate)
+\end{itemize}
+
+%% Кинотеатр
+
+\begin{flushleft}
+	\vspace{-\intextsep}
+	\quad
+	\href{https://github.com/Crazy5202/Python_project}{\textbf{Онлайн-кинотеатр (учебный проект)}}
+	\hfill
+	Москва
+\end{flushleft}
+
+\begin{flushleft}
+	\vspace{-1\intextsep}
+	\quad
+	\textit{Московский авиационный институт}
+	\hfill
+	\textit{\small Сент. 2024 - Дек. 2024}
+\end{flushleft}
+
+%%% Список Кинотеатр
+
+\begin{itemize}
+	\vspace{-2\intextsep}
+	\item ETL со сбором HTML-страниц фильмов из IMDB через HTTP-запросы,
+    парсингом информации из них, выгрузкой в БД PostgreSQL и S3-хранилище
+\end{itemize}
+
+% Подзаголовок Образование
+
+\begin{flushleft}
+	\vspace{-\intextsep}
+	\large Образование
+\end{flushleft}
+
+\vspace{-0.8\intextsep}
+\hrule
+
+%% Магистратура
+
+\begin{flushleft}
+	\vspace{-0.8\intextsep}
+	\quad
+	\textbf{Московский авиационный институт}
+	\hfill
+	Москва
+\end{flushleft}
+
+\begin{flushleft}
+	\vspace{-\intextsep}
+	\quad
+	\textit{\footnotesize Магистр, фундаментальная информатика и информационные технологии} 
+	%искусственный интеллект и суперкомпьютерное моделирование}
+	\hfill
+	\textit{\small Авг. 2026 - н.в.}
+\end{flushleft}
+
+%% Бакалавриат
+
+\begin{flushleft}
+	\vspace{-0.8\intextsep}
+	\quad
+	\textbf{Московский авиационный институт}
+	\hfill
+	Москва
+\end{flushleft}
+
+\begin{flushleft}
+	\vspace{-\intextsep}
+	\quad
+	\textit{Бакалавр, прикладная математика и информатика}
+	\hfill
+	\textit{\small Авг. 2022 - Авг. 2026}
+\end{flushleft}
+
+% Подзаголовок Навыки
+
+\begin{flushleft}
+	\vspace{-\intextsep}
+	\large Навыки
+\end{flushleft}
+
+\vspace{-0.8\intextsep}
+\hrule
+
+%% Навыки
+
+\vspace{0.5\intextsep}
+
+\textbf{БД и хранилища:} PostgreSQL, MongoDB, Redis, Elasticsearch, ClickHouse, S3
+
+\textbf{Языки программирования:} SQL, Python (Flask, FastAPI, SQLAlchemy, Alembic, PySpark, asyncio, pytest)
+
+\textbf{Трекинг задач и документация:} Jira, Trello, Confluence, Figma, MS Office, Power BI
+
+\textbf{Наблюдаемость:} Grafana, Prometheus, Loki, Promtail, Logstash, Kibana
+
+\textbf{Инфраструктура и интеграции:} Linux, Git, Docker, Debezium, n8n, CI/CD, сетевые технологии (L2/L3)
+
+\textbf{Очереди сообщений:} Kafka, RabbitMQ
+
+\textbf{Моделирование архитектуры и процессов:}  ERD, C4, UML, BPMN, DFD
+
+\textbf{Проектирование API, протоколы:} HTTP/HTTPS, REST, Swagger, JSON, XML
+
+\textbf{Методологии и фреймворки:} Scrum, Kanban
+
+\textbf{Иностранные языки:} Английский C1
+
+% Подзаголовок О себе
+
+\begin{flushleft}
+	\vspace{-\intextsep}
+	\large О себе
+\end{flushleft}
+
+\vspace{-0.8\intextsep}
+\hrule
+
+%% О себе
+\begin{sloppypar}
+	\vspace{0.5\intextsep}
+	\quad
+	Начинающий аналитик с опытом проектирования и построения БД в микросервисной архитектуре, ETL данных, взаимодействия с командой разработки (от 4 до 9 человек), поддержки ТЗ. Обладаю значительным опытом использования Python для работы с СУБД и хранилищами данных. 
+\end{sloppypar}
+
+\end{document}

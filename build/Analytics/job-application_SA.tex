@@ -34,7 +34,7 @@
 \begin{center}
     \textbf{\LARGE Куценко Максим Дмитриевич}
     
-    \textit{\Large Аналитик}
+    \textit{\Large Системный аналитик}
 \end{center}
 
 \begin{center}
@@ -75,16 +75,37 @@
 
 \begin{itemize}
 	\vspace{-2\intextsep}
-	\item Анализ существующих решений и архитектурных подходов
+	\item Проектирование \href{https://github.com/Crazy5202/job_application_form/tree/main/portfolio/eComm_C4.pdf}{микросервисной архитектуры решения (C4)}: 6 контейнеров асинхронных сервисов FastAPI, 4 контейнера PostgreSQL с паттерном Database per service, контейнер Elasticsearch, контейнер Minio, 4 контейнера утилит, 4 контейнера инструментов наблюдаемости 
 	\vspace{-0.8\intextsep}
-	\item Проектирование архитектуры решения на основе рассмотренных подходов
+	\item Проектирование схемы БД и миграций (SQLAlchemy, Alembic)
 	\vspace{-0.8\intextsep}
-    \item Руководство командой (4 человека), ведение 
+	\item Разработка спецификаций REST API для микросервисов
+	\vspace{-0.8\intextsep}
+	\item Построение ролевой модели доступа (RBAC) на основе JWT token в cookie с паттерном SSO
+	\vspace{-0.8\intextsep}
+	\item Unit-тестирование сервисов через pytest
+	\vspace{-0.8\intextsep}
+	\item Конфигурация доступа к сервисам через reverse proxy (Traefik) с проверкой access token сервисом аутентификации
+	\vspace{-0.8\intextsep}
+	\item Построение полнотекстового поиска продуктов в Elasticsearch с ETL
+	
+	\vspace{-0.5\intextsep} 
+	изменений из основной БД PostgreSQL через CDC Debezium и Kafka
+	\vspace{-0.8\intextsep}
+	\item Организация сбора метрик из микросервисов в Prometheus
+	\vspace{-0.8\intextsep}
+	\item Построение сбора логов из микросервисов с Promtail и их выгрузкой в Loki
+	\vspace{-0.8\intextsep}
+	\item Визуальный анализ информации о метриках и логах через \href{https://github.com/Crazy5202/job_application_form/tree/main/portfolio/eComm_Grafana.pdf}{дашборд в Grafana} (Request Latency, Request Rate, Error Rate)
+	\vspace{-0.8\intextsep}
+	\item Тестирование контрактных взаимодействий (Postman)
+	\vspace{-0.8\intextsep}
+    \item Взаимодействие с командой (4 человека), ведение 
 
     \vspace{-0.5\intextsep}
-    бэклога и проектной документации (ТЗ)
+    бэклога и проектной документации (ТЗ, диаграммы UML)
     \vspace{-0.8\intextsep}
-    \item Презентация результатов
+    \item Развёртывание проекта на арендованном сервере
 \end{itemize}
 
 %% Кинотеатр
@@ -109,16 +130,21 @@
 
 \begin{itemize}
 	\vspace{-2\intextsep}
-	\item Анализ существующих решений и архитектурных подходов
+	\item Проектирование сервисов (C4): Frontend-контейнер Streamlit, 2 Backend-контейнера сервисов FastAPI, контейнер PostgreSQL, контейнер Minio
 	\vspace{-0.8\intextsep}
-	\item Проектирование архитектуры решения на основе рассмотренных подходов
+	\item Разработка спецификаций REST API для Backend-сервисов
 	\vspace{-0.8\intextsep}
-    \item Руководство командой (4 человека), ведение 
+	\item Организация ETL по сбору HTML-страниц фильмов из IMDB через HTTP-запросы,
+    парсингу информации из них, выгрузке в БД PostgreSQL и S3-хранилище
+	\vspace{-2\intextsep}
+    \item Тестирование контрактных взаимодействий (Postman)
+	\vspace{-0.8\intextsep}
+    \item Взаимодействие с командой (4 человека), ведение 
 
     \vspace{-0.5\intextsep}
-    бэклога и проектной документации (ТЗ)
+    бэклога и проектной документации (ТЗ, диаграммы UML)
     \vspace{-0.8\intextsep}
-    \item Презентация результатов
+    \item Развёртывание проекта на арендованном сервере
 \end{itemize}
 
 %% ЭДО
@@ -144,13 +170,17 @@
 \begin{itemize}
 	\vspace{-2\intextsep}
     \item Сбор и формализация бизнес-требований от \href{https://vk.ru/kearkhipov}{партнёра проекта}
+    \vspace{-0.8\intextsep}
+    \item Проектирование сервисов (C4): Frontend и Backend контейнеры Flask 
 	\vspace{-0.8\intextsep}
-    \item Руководство командой (9 человек), ведение 
+    \item Взаимодействие с командой (9 человек), ведение 
     
     \vspace{-0.5\intextsep}
-    бэклога и проектной документации (ТЗ)
+    бэклога и проектной документации (ТЗ, диаграммы UML)
     \vspace{-0.8\intextsep}
-    \item Презентация результатов на форуме электронного документооборота
+    \item Развёртывание проекта на арендованном сервере
+    \vspace{-0.8\intextsep}
+    \item Командная презентация результатов на форуме электронного документооборота
     
     \vspace{-0.5\intextsep}
     с положительными оценками; проект рекомендован к внедрению на основе
@@ -195,7 +225,9 @@
 
 \begin{itemize}
 	\vspace{-2\intextsep}
-	\item Построение RAG-системы с n8n
+	\item Построение \href{https://github.com/Crazy5202/job_application_form/tree/main/portfolio/K2/RAG_C4.pdf}{архитектуры (C4)} и \href{https://github.com/Crazy5202/job_application_form/tree/main/portfolio/K2/RAG_DFD.pdf}{потока данных (DFD)} RAG-системы
+	\vspace{-0.8\intextsep}
+    \item Создание функционирующей RAG-системы с n8n
 \end{itemize}
 
 %% Студфест
@@ -245,8 +277,8 @@
 \begin{flushleft}
 	\vspace{-\intextsep}
 	\quad
-	\textit{\footnotesize Магистр, %фундаментальная информатика и информационные технологии} 
-	искусственный интеллект и суперкомпьютерное моделирование}
+	\textit{\footnotesize Магистр, фундаментальная информатика и информационные технологии} 
+	%искусственный интеллект и суперкомпьютерное моделирование}
 	\hfill
 	\textit{\small Авг. 2026 - н.в.}
 \end{flushleft}
@@ -301,17 +333,23 @@
 
 \vspace{0.5\intextsep}
 
-\textbf{Трекинг задач и документация:} Jira, Trello, Confluence, Figma, MS Office
-
 \textbf{Моделирование архитектуры и процессов:} C4, UML, BPMN, DFD, ERD, IDEF0
 
 \textbf{Проектирование API, протоколы:} HTTP/HTTPS, REST, Swagger, JSON, XML
 
-\textbf{БД и хранилища:} SQL, NoSQL, S3
+\textbf{Наблюдаемость:} Grafana, Prometheus, Loki, Promtail, Logstash, Kibana
 
-\textbf{Языки программирования:} SQL, Python
+\textbf{Очереди сообщений:} Kafka, RabbitMQ
 
-\textbf{Методологии:} Scrum, Kanban 
+\textbf{БД и хранилища:} PostgreSQL, MongoDB, Redis, Elasticsearch, ClickHouse, S3
+
+\textbf{Языки программирования:} SQL, Python (Flask, FastAPI, SQLAlchemy, Alembic, asyncio, pytest)
+
+\textbf{Инфраструктура и интеграции:} Linux, Git, Docker, Traefik, Debezium, n8n, Postman, CI/CD, сетевые технологии (L2/L3)
+
+\textbf{Трекинг задач и документация:} Jira, Trello, Confluence, Figma, MS Office
+
+\textbf{Методологии и фреймворки:} Scrum, Kanban
 
 \textbf{Иностранные языки:} Английский C1
 
@@ -329,7 +367,7 @@
 \begin{sloppypar}
 	\vspace{0.5\intextsep}
 	\quad
-	Начинающий аналитик с опытом взаимодействия с бизнес-частью и командой разработки (от 4 до 9 человек), ведения документации в соответствии с нормативными документами, а также командной презентации результатов.
+	Начинающий системный аналитик с опытом проектирования асинхронной микросервисной архитектуры, взаимодействия с бизнес-частью и с командой разработки (от 4 до 9 человек), написания и ведения ТЗ. Обладаю опытом программирования с Python и SQL, развёртки сервисов с Docker. 
 \end{sloppypar}
 
 \end{document}
