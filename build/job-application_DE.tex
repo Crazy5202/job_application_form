@@ -53,6 +53,38 @@
 \vspace{-0.8\intextsep}
 \hrule
 
+%% Поиск
+
+\begin{flushleft}
+	\vspace{-0.8\intextsep}
+	\quad
+	\href{https://github.com/Crazy5202/infsearch/tree/main/lab2/core}{\textbf{Парсер для поисковой системы (учебный проект)}}
+	\hfill
+	Москва
+\end{flushleft}
+
+\begin{flushleft}
+	\vspace{-1\intextsep}
+	\quad
+	\textit{Московский авиационный институт}
+	\hfill
+	\textit{\small Сен. 2025 - Дек. 2025}
+\end{flushleft}
+
+%%% Список Поиск
+
+\begin{itemize}
+	\vspace{-2\intextsep}
+	\item Написание загрузчика списка страниц сайта из sitemap.xml в очередь сообщений в Redis
+	\vspace{-0.8\intextsep}
+	\item Создание параллельного парсинга через асинхронные процессы; процессы 
+	
+	\vspace{-0.5\intextsep}
+	взаимодействуют с очередями ссылок в Redis (отказоустойчиво), получают HTML-страницы через запросы и сохраняют их в MongoDB
+	\vspace{-0.8\intextsep}
+	\item Сбор 136 448 страниц с \href{https://heroes.fandom.com}{Heroes Wiki} и \href{https://villains.fandom.com}{Villains Wiki} через запросы к MediaWiki API
+\end{itemize}
+
 %% eComm
 
 \begin{flushleft}
@@ -82,6 +114,33 @@
 	\item ETL/CDC пайплайн: синхронизация изменений в основной БД PostgreSQL с Elasticsearch через Debezium и Kafka для полнотекстового поиска продуктов
 	\vspace{-0.8\intextsep}
 	\item Визуальный анализ информации о метриках и логах через \href{https://github.com/Crazy5202/job_application_form/tree/main/portfolio/eComm_Grafana.pdf}{дашборд в Grafana}
+\end{itemize}
+
+%% Wikidata
+
+\begin{flushleft}
+	\vspace{-0.8\intextsep}
+	\quad
+	\textbf{Генерация страниц детской книги на основе базы знаний}
+	\hfill
+	Москва
+\end{flushleft}
+
+\begin{flushleft}
+	\vspace{-1\intextsep}
+	\quad
+	\textit{Московский авиационный институт}
+	\hfill
+	\textit{\small Апр. 2025}
+\end{flushleft}
+
+%%% Список eComm
+
+\begin{itemize}
+	\vspace{-2\intextsep}
+	\item Сбор JSON-файлов через SPARQL query к Wikidata API по определению "фильм"
+	\vspace{-0.8\intextsep}
+	\item Генерация текста через GigaChat API на основе найденных понятий и их определений
 \end{itemize}
 
 %% Кинотеатр
@@ -147,6 +206,9 @@
     \item Создание функционирующей RAG-системы с n8n
 \end{itemize}
 
+% Новая страница
+\pagebreak
+
 % Подзаголовок Навыки
 
 \begin{flushleft}
@@ -165,7 +227,7 @@
 
 \textbf{Обработка данных и Big Data:} Apache Spark (PySpark, Spark SQL)
 
-\textbf{Языки и инструменты:} SQL, Python (SQLAlchemy, Alembic, asyncio, pytest)
+\textbf{Языки и инструменты:} SQL, Python (numpy, pandas, SQLAlchemy, Alembic, asyncio, pytest, requests, nodriver)
 
 \textbf{Очереди и интеграции:} Kafka, RabbitMQ, Debezium, REST, JSON
 
